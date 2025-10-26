@@ -17,7 +17,6 @@ while True:
     try:
         response = requests.get(BACKEND_URL, timeout=10)
         data = response.json()
-        st.warning(data)
         timestamp = data.get("timestamp")
         trains = data.get("data", {}).get("data", [])
 
