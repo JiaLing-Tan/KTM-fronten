@@ -7,7 +7,7 @@ import time
 
 st.set_page_config(page_title="KTMB Live Tracker", layout="wide")
 
-BACKEND_URL = "https://ktmb-backend.onrender.com/live"  # change this after deploying backend
+BACKEND_URL = "https://ktm-backend-846g.onrender.com"  # change this after deploying backend
 
 st.title("🚆 KTMB Live Train Tracker")
 
