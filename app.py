@@ -22,7 +22,7 @@ while True:
 
         if not trains:
             st.warning("No train data found.")
-            time.sleep(10)
+            time.sleep(30)
             continue
 
         df = pd.DataFrame([
